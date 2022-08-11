@@ -1,0 +1,85 @@
+#logo {
+    margin: auto;
+    background-size: cover;
+    width:max-content;
+    height: min-content;
+    
+
+}
+
+body {
+    font-family: "Arial", sans-serif;
+}
+
+section {
+    text-align: center;
+}
+
+.game-title {
+    font-size: 100px;
+    color: #b2acb4ce;
+    margin: 10px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #c7c5bf;
+    color: #04c0b2;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px #63625f;
+    border: 2px solid #6b5f4f;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game-status {
+    font-size: 50px;
+    color: #d3be8d;
+    margin: 20px auto;
+}
+
+.game-restart {
+    background-color: #c7c5bf;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: #90959f;
+    box-shadow: 2px 2px 2px 2px #dbae8f;
+    border: 2px solid #dbb398;
+}
+
+.players {
+    height: 20px;
+    width: 60px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(170, 159, 159);
+    color: rgb(214, 218, 222);
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+td {
+    text-align: center;
+}
+
+.table-heading {
+    font-size: large;
+    color: #6b5f4f;
+    font-weight: bold;
+}
