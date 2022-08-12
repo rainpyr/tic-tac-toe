@@ -1,5 +1,5 @@
 # **TIC-TAC-TOE GAME**
-GA-SEI55-Project0 link
+GA-SEI55-Project0 [link](https://rainpyr.github.io/tic-tac-toe/)
 
 ## **Overview**
 This is a project developed by JavaScript (with the jQuery library), HTML and CSS. It is designed to play between two players (playerX and playerO) on a 3*3 grid game board, two players take turns to play, playerX will mark a cell on the game board in red, and playerO will make a cell on the game board in blue. When one player makes a line with three cells (horizontal, vertical or diagonal), the winner will be declared, and game needs to restart.
